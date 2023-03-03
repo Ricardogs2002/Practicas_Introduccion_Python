@@ -53,37 +53,30 @@ colorpop=[color1,color2]
 print("pop:",colorpop,'\n')
 
 #30
-
+coloresa=colores.copy()
+coloresa.append('fuxia')
+coloresa.append('celeste')
+print("apend:",coloresa,'\n')
 
 #31
-
+coloresi=colores.copy()
+coloresi.insert(6,'magenta')
+coloresi.insert(-1,'turquesa')
+print("insert:",coloresi,'\n')
 
 #32
-
+coloress=colores.copy()
+coloress.sort(reverse=True)
+print("sort:",coloress,'\n')
 
 #33
-
+tuplas= ('rojo', 'azul', 'verde', 'amarillo', 'marrón', 'lila', 'negro', 'rosa', 'blanco', 'naranja')
+print(tuplas[1])
 
 #34
-
+numero = (10, 1, 5, 11)
+print(numero[0]-numero[1]+numero[2]+numero[3])
 
 #35
-
-
-#36
-
-
-#37
-
-
-#38
-
-
-#39
-
-
-#40
-
-
-#41
-
+tupla=tuple(colores)
+print(type(tupla),'\n')
